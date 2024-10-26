@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
@@ -18,7 +18,7 @@ body {
     align-items: center;
     justify-content: center;
     list-style: none;
-    gap: 5em; 
+    gap: 5em;
     padding: 2.5em;
 }
 
@@ -27,14 +27,14 @@ body {
     margin-right: 2em;
 }
 
-.menu-list a { 
+.menu-list a {
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
     color: white;
 }
 
-.menu-list a:hover{
+.menu-list a:hover {
     border-bottom: solid 1px white;
 }
 
@@ -45,14 +45,14 @@ body {
 .img {
     width: 100%;
     height: 650px;
-    object-fit:fill;
+    object-fit: fill;
     display: block;
 }
 
-.button-container{
+.button-container {
     display: flex;
     margin-top: -35%;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -94,7 +94,8 @@ body {
     margin-bottom: 2em;
 }
 
-.form-box, input {
+.form-box,
+input {
     width: 100%;
     padding: 2%;
 }
@@ -127,7 +128,7 @@ body {
 
 .form-container {
     display: flex;
-    width: 100%; 
+    width: 100%;
 }
 
 #campo-descricao {
@@ -136,14 +137,15 @@ body {
 }
 
 .imagem-form {
-    flex: 1; 
+    flex: 1;
     display: flex;
-    align-items: center; 
-    justify-content: center; 
+    align-items: center;
+    justify-content: center;
 }
+
 .imagem {
     width: 100%;
-    height: 100%; 
+    height: 100%;
     object-fit: cover;
 }
 
@@ -153,7 +155,8 @@ body {
     margin-bottom: 2%;
 }
 
-.text-container, p {
+.text-container,
+p {
     font-size: 18px;
     color: white;
 }
@@ -171,7 +174,7 @@ body {
     text-align: center;
 
     margin: 10% 0 10% 0;
-    
+
 }
 
 .descricao-icon {
@@ -187,7 +190,8 @@ body {
     margin-top: 2em;
 }
 
-.text, p {
+.text,
+p {
     color: black;
 }
 
@@ -199,30 +203,31 @@ body {
     padding: 5%;
 }
 
-.footer-list a { 
+.footer-list a {
     font-size: 14px;
     text-decoration: none;
     color: black;
-    
+
 }
 
 .section-button {
     display: flex;
-    justify-content:end;
+    justify-content: end;
     margin-top: 2%;
 }
 
-.main-button{
+.main-button {
     font-size: 16px;
     width: 15%;
     margin: 1;
     padding: 1.5em;
     border: solid 1px white;
     border-radius: 18px;
-    background-color:blueviolet;
+    background-color: blueviolet;
 }
 
-.main-button, a {
+.main-button,
+a {
     text-decoration: none;
     font-weight: 600;
     text-transform: uppercase;
@@ -235,6 +240,7 @@ body {
 
 
 
+/* Configuração básica para o carrossel */
 .carousel-container {
     width: 100%;
     overflow: hidden;
