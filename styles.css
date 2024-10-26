@@ -9,19 +9,22 @@ body {
     font-family: Poppins;
 }
 
-.recode-logo{
-    width: 10%;
-    position: relative;
+.cabecalho {
+    background-color: blueviolet;
 }
 
 .menu-list {
-    background-color: blueviolet;
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
     gap: 5em; 
-    padding: 2.5em
+    padding: 2.5em;
+}
+
+.recode-logo {
+    width: 10%;
+    margin-right: 2em;
 }
 
 .menu-list a { 
