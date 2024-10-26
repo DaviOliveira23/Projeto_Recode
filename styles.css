@@ -44,13 +44,14 @@ body {
 
 .img {
     width: 100%;
-    height: auto;
+    height: 650px;
+    object-fit:fill;
     display: block;
 }
 
 .button-container{
     display: flex;
-    margin-top: -45%;
+    margin-top: -35%;
     align-items:center;
     justify-content: center;
 }
