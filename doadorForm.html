@@ -7,37 +7,64 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header class="cabecalho">
+        <nav class="menu-list">
+            <a href="index.html">Página Principal</a>
+            <a href="index.html">Sobre</a>
+            <a href="index.html">Contato</a>
+        </nav>
+    </header>
     <main>
         <section class="container-form">
-            <form class="form doador" id="form1">
-                <h1 class="title">Sou Doador</h1>
+            <div class="form-container">
+                <form class="form doador" id="form1">
+                    <h1 class="title">Sou Doador</h1>
 
-                <div class="form-box">
-                    <label for="nome">Nome Completo:</label>
-                    <input type="text" class="nome">
-                </div>
-                <div class="form-box">
-                    <label for="CPF">CPF:</label>
-                    <input type="text" class="CPF">
-                </div>
-                <div class="form-box">
-                    <label for="telefone">Telefone:</label>
-                    <input type="tel" class="telefone">
-                </div>
-                <div class="form-box">
-                    <label for="email">E-mail:</label>
-                    <input type="email" class="email">
-                </div>
-                <div class="form-box">
-                    <label for="cidade">Cidade:</label>
-                    <input type="text" class="cidade">
-                </div>
+                    <div class="form-box">
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" class="nome">
+                    </div>
+                    <div class="form-box">
+                        <label for="CPF">CPF:</label>
+                        <input type="text" class="CPF">
+                    </div>
+                    <div class="form-box">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" class="telefone">
+                    </div>
+                    <div class="form-box">
+                        <label for="email">E-mail:</label>
+                        <input type="email" class="email">
+                    </div>
+                    <div class="form-box">
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" class="cidade">
+                    </div>
 
-                <div class="form-button">
-                    <button class="submit" type="submit">Enviar</button>
+                    <div class="form-button">
+                        <button class="submit" type="submit">Enviar</button>
+                    </div>
+
+                    <div class="form-box">
+                        <label for="campo-descricao">PRECISO DE:</label>
+                        <textarea name="campo-descricao" id="campo-descricao" rows="4" cols="50"></textarea>
+                    </div>
+                </form>
+
+                <div class="imagem-form">
+                    <img src="img/doe.jpg" class="imagem">
                 </div>
-            </form>
+            </div>
         </section>
     </main>
+
+    <footer>
+        <nav class="footer-list">
+            <a href="index.html">Página Principal</a>
+            <a href="index.html">Sobre</a>
+            <a href="index.html">Contato</a>
+            <a href="https://recode.org.br/">ReCodeAI</a>
+        </nav>
+    </footer>
 </body>
 </html>
