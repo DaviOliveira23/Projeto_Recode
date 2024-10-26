@@ -228,3 +228,28 @@ body {
 .main-button:hover {
     background-color: rgb(43, 5, 80);
 }
+
+.footer {
+    width: 100%;
+    background-color: #28f4ff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.footer p:last-child {
+    font-size: 0.9rem;
+}
