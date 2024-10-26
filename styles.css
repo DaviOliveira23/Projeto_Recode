@@ -191,20 +191,9 @@ body {
     color: black;
 }
 
-.footer-list {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-    padding: 5%;
-}
 
-.footer-list a { 
-    font-size: 14px;
-    text-decoration: none;
-    color: black;
-    
-}
+
+
 
 .section-button {
     display: flex;
