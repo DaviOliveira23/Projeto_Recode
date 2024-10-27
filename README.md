@@ -1,4 +1,4 @@
-# Plataforma de Conexão para Doações de Roupas
+# Plataforma de Conexão para Doações de Vestuários
 
 Este projeto é uma plataforma web desenvolvida para interligar pessoas que desejam fazer doações de roupas e aquelas que precisam de peças específicas. A plataforma permite que tanto doadores quanto receptores cadastrem suas informações e detalhem os itens disponíveis ou desejados. O diferencial da plataforma é garantir que as roupas doadas estejam em boas condições de uso.
 
@@ -33,4 +33,4 @@ As roupas para doação devem seguir as orientações abaixo para garantir quali
 
 1. Clone o repositório para o seu computador:
    ```bash
-   git clone https://github.com/seu_usuario/seu_projeto.git
+   git clone https://github.com/alura-cursos/2858-java-screenmatch.git
