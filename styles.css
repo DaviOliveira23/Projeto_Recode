@@ -298,6 +298,10 @@ a {
     text-align: center;
 }
 
+.footer-informacoes, p{
+    color: f;
+}
+
 .carousel-container {
     width: 100%;
     overflow: hidden;
