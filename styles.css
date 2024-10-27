@@ -24,7 +24,7 @@ body {
     padding: 2.5em;
 }
 
-.recode-logo {
+.recode-logo{
     width: 10%;
     margin-right: 2em;
 }
@@ -326,8 +326,70 @@ a {
 }
 
 .carousel-slide img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+
+
+.container-midia {
+    display: flex;
+    align-items: flex-start; 
+    gap: 2em; 
+}
+
+.secao-video {
+    flex: 0 0 60%; 
+}
+
+.video-item {
     width: 100%; 
-    height: 100px; 
-    object-fit: cover; 
-    border-radius: 8px; 
+    height: auto; 
+}
+
+.text-box {
+    flex: 1; 
+    max-width: 600px; 
+    margin: 5% 0 0 5%;
+}
+
+.container-video {
+    margin: 5%;
+}
+
+
+.title-video {
+    width: 10%;
+    color: blueviolet;
+    font-size: 36px;
+    margin-bottom: 3%;
+    border-bottom: solid 2px blueviolet;
+}
+
+.title-text {
+    font-size: 32px;
+    color: blueviolet;
+}
+
+.campo-text {
+    width: 75%;
+    margin-top: 2%;
+
+}
+
+.container-secundario {
+    display: flex;
+}
+
+.descricao-text {
+    width: 75%;
+    margin-top: 2%;
+}
+
+.img-heart {
+    width: 20%;
+    margin-right: 10%;
 }
