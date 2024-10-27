@@ -21,11 +21,11 @@ body {
     justify-content: center;
     list-style: none;
     gap: 5em;
-    padding: 2.5em;
+    
 }
 
 .recode-logo{
-    width: 10%;
+    width: 12%;
     margin-right: 2em;
 }
 
@@ -272,7 +272,7 @@ a {
     justify-content: center;
     list-style: none;
     gap: 5em;
-    padding: 2.5em;
+
     color: white;
     text-transform: uppercase;
     font-weight: 600;
