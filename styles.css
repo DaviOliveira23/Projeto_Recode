@@ -106,6 +106,7 @@ input {
     width: 100%;
     text-align: center;
     margin-bottom: 5%;
+    margin-left: 4%;
 }
 
 .submit {
@@ -121,6 +122,10 @@ input {
     margin-bottom: 2em;
     font-weight: bolder;
     text-transform: uppercase;
+}
+
+.title-user {
+    color: blueviolet;
 }
 
 .imagem {
@@ -401,4 +406,14 @@ a {
 .img-heart {
     width: 20%;
     margin-right: 10%;
+}
+
+.submit {
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+}
+
+.submit:hover {
+    background-color: rgb(43, 5, 80);
 }
