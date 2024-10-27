@@ -243,12 +243,16 @@ a {
     font-family: "Poppins", serif;
     font-weight: 600;
     font-style: normal;
+    color: blueviolet;
+    font-size: 36px;
+    margin-bottom: 1%;
 }
 
 .imagem-informacoes {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2%;
 }
 
 .menu-informacoes {

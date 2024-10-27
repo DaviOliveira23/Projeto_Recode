@@ -15,8 +15,8 @@ function moveSlide(step) {
     if (currentIndex < 0) {
         currentIndex = totalSlides - 1; // Volta para o último slide
     }
-
-    const offset = -currentIndex * 100; // Muda para o próximo slide
+                                    //Fiz uma alteração no cálculo
+    const offset = -currentIndex * (100 / totalSlides); // Muda para o próximo slide
     document.querySelector('.carousel-slide').style.transform = `translateX(${offset}%)`;
 }
 
